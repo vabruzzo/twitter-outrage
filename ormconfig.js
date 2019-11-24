@@ -1,0 +1,35 @@
+module.exports = [
+  {
+    name: 'default',
+    type: 'postgres',
+    host: 'localhost',
+    port: 5432,
+    username: process.env.DATABASE_USER || 'test',
+    password: process.env.DATABASE_PASSWORD || 'test',
+    database: process.env.DATABASE || 'test',
+    synchronize: false,
+    logging: false,
+    cache: true,
+    entities: ['src/entity/**/*.ts'],
+    migrations: ['src/migration/**/*.ts'],
+    cli: {
+      entitiesDir: 'src/entity',
+      migrationsDir: 'src/migration',
+    },
+  },
+  {
+    name: 'seed',
+    type: 'postgres',
+    host: 'localhost',
+    port: 5432,
+    username: process.env.DATABASE_USER || 'test',
+    password: process.env.DATABASE_PASSWORD || 'test',
+    database: process.env.DATABASE || 'test',
+    synchronize: false,
+    logging: false,
+    migrations: ['src/seed/*.ts'],
+    cli: {
+      migrationsDir: 'src/seed',
+    },
+  },
+];
