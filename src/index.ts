@@ -25,8 +25,12 @@ createConnection()
     app.use(router.routes());
     app.use(router.allowedMethods());
 
-    app.listen(3000);
+    const port = process.env.PORT || 3000;
 
-    console.log('Koa application is up and running at http://localhost:3000');
+    app.listen(port);
+
+    console.log(
+      `Koa application is up and running at http://localhost:${port}`
+    );
   })
   .catch(error => console.log(error));
