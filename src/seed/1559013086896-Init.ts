@@ -1,5 +1,5 @@
 import { MigrationInterface, getConnection, createConnection } from 'typeorm';
-import tweets from '../client/src/data/tweets';
+import tweets from '../data/tweets';
 import { Tweet } from '../entity/Tweet';
 
 export class Init1559013086896 implements MigrationInterface {

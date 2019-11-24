@@ -35,13 +35,26 @@ const tweets = [
   },
   {
     text:
+      'Covington and the politics of aggressive standing https://t.co/tuBXGU5TIW',
+    tweet_id: '1090088957432422400',
+    metadata: {
+      description: null,
+      image:
+        'https://www.thenewneo.com/wp-content/plugins/ultimate-social-media-icons/images/follow_subscribe.png',
+      title: 'Covington and the politics of aggressive standing – The New Neo',
+      url:
+        'https://www.thenewneo.com/2019/01/24/covington-and-the-politics-of-aggressive-standing/',
+    },
+  },
+  {
+    text:
       'Covington Catholic Students In Blackface Underline Race Issues At Private School https://t.co/pB4jy0Inuq',
     tweet_id: '1089508725797384200',
     metadata: {
       description:
         'New allegations of racism have cropped up just as students and parents deny the last ones.',
       image:
-        'https://img.huffingtonpost.com/asset/5c47559f2500002c017db77c.jpeg?cache=01gfyi1pzh&ops=1910_1000',
+        'https://img.huffingtonpost.com/asset/5c47559f2500002c017db77c.jpeg?cache=01gfyi1pzh&ops=1778_1000',
       title:
         'Covington Catholic Students In Blackface Underline Race Issues At Private School',
       url:
@@ -110,11 +123,11 @@ const tweets = [
     metadata: {
       description: '‘The media really got this one wrong...’',
       image:
-        'https://www.westernjournal.com/ct/wp-content/uploads/sites/5/2019/01/Nathan-Phillips-and-Nicholas-Sandmann.jpg',
+        'https://www.westernjournal.com/wp-content/uploads/2019/01/Nathan-Phillips-and-Nicholas-Sandmann.jpg',
       title:
         'Apologies Come Flooding In After Larger Picture of Covington Boys Is Revealed',
       url:
-        'https://www.westernjournal.com/ct/apologies-come-flooding-larger-picture-covington-boys-revealed/',
+        'https://www.westernjournal.com/apologies-come-flooding-larger-picture-covington-boys-revealed/',
     },
   },
   {
@@ -123,13 +136,24 @@ const tweets = [
     tweet_id: '1089401232043593700',
     metadata: {
       description:
-        'A man was escorted out of a Colorado school board meeting for naming a teacher who called the wrong Covington Catholic boy part of the &quot;Hitler Youth.&quot;',
+        'A man was escorted out of a Colorado school board meeting for naming a teacher who called the wrong Covington Catholic boy part of the “Hitler Youth.”',
       image:
         'https://cdn01.dailycaller.com/wp-content/uploads/2019/01/School-Meeting-1-e1548450773628.png',
       title:
         'Man Booted From School Board Meeting For Naming Teacher Who Called Covington Boys ‘Hitler Youth’',
       url:
         'https://dailycaller.com/2019/01/25/man-booted-teacher-covington-boys-hitler-youth/',
+    },
+  },
+  {
+    text:
+      '#FakeNews @CNN  "STILL BLAMING THE KIDS"! Phillips was the aggressor &amp; the ADULT  he was in their face and threatening(Lied about service)-hat excuse shows your ignorance! CNN Attempts Damage Control for Covington Misreporting, FAILS AGAIN 🤣 https://t.co/43zjhiXD8J via @YouTube',
+    tweet_id: '1089347539797725200',
+    metadata: {
+      description: null,
+      image: null,
+      title: 'YouTube',
+      url: 'https://www.youtube.com/watch?v=q_dnOtv9FOw&feature=youtu.be',
     },
   },
   {
@@ -145,6 +169,20 @@ const tweets = [
         '“I Don’t Really Care” - University of Cincinnati Student Supports Death Threats of Covington Catholic Boys (VIDEO)',
       url:
         'https://www.thegatewaypundit.com/2019/01/i-dont-really-care-university-of-cincinnati-student-supports-death-threats-of-covington-catholic-boys-video/',
+    },
+  },
+  {
+    text:
+      'Covington Catholic High School: Stand With The #CovingtonBoys - Sign the Petition! https://t.co/qca279P6gy via @Change',
+    tweet_id: '1089184300203946e3',
+    metadata: {
+      description:
+        'The Students Of Covington Catholic Are Facing Expulsion and Need Our Help',
+      image:
+        'https://assets.change.org/photos/6/wu/dk/ZtwudKxFxvcatlw-800x450-noPad.jpg?1548027279',
+      title: 'Sign the Petition',
+      url:
+        'https://www.change.org/p/covington-catholic-high-school-stand-with-the-covingtonboys',
     },
   },
   {
@@ -295,6 +333,11 @@ const tweets = [
   },
   {
     text:
+      'No he was just extremely uncourageous, measily, petty, bigoted towards his flock, and more afraid of the mob , than of God\n. #Covington #Bishop. https://t.co/Iu8wlIrKgy',
+    tweet_id: '1090682104193663e3',
+  },
+  {
+    text:
       '@AlexMLeo @JamesOKeefeIII It\'s pretty obvious really - CNN was tipped off. Only a fool would think otherwise. Comey\'s former tea-boy now works for CNN. The "propaganda" comes from the Left - as always. Covington, anyone?',
     tweet_id: '1089749636972040200',
   },
@@ -361,7 +404,7 @@ const tweets = [
       description:
         '““Harassed” = fact-checked; informed that she will be held accountable for false &amp; defamatory statements; and exposed to bothersome videos, updates &amp; context by the “hoi polloi” that did not fit her narrative. Buh-bye. https://t.co/ExnIbgGyzY”',
       image:
-        'https://pbs.twimg.com/profile_images/751254241230983168/-Fby6PRv_400x400.jpg',
+        'https://pbs.twimg.com/profile_images/1190129882556182528/gYVB3fi6_400x400.jpg',
       title: 'Michelle Malkin on Twitter',
       url: 'https://twitter.com/michellemalkin/status/1088214708497178624',
     },
@@ -420,7 +463,7 @@ const tweets = [
       image:
         'https://i.cbc.ca/1.4985495.1548193919!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_620/indigenous-peoples-march.jpg',
       title:
-        'Opinion: Importance of Indigenous Peoples March got overshadowed by ‘the face of white privilege’ | CBC News',
+        'OPINION | Opinion: Importance of Indigenous Peoples March got overshadowed by ‘the face of white privilege’ | CBC News',
       url:
         'https://www.cbc.ca/news/indigenous/opinion-covington-indigenous-peoples-march-1.4993851',
     },
@@ -445,9 +488,9 @@ const tweets = [
     tweet_id: '1090437837516914700',
     metadata: {
       description:
-        '25 Likes, 0 Comments - Albers A/C & Heating (@albersair) on Instagram: “Another Install In The Books. . . #AlbersAc #HVAC #hvacinstall #daikin #inverter #21SEER…”',
+        '24 Likes, 0 Comments - Albers A/C & Heating (@albersair) on Instagram: “Another Install In The Books. . . #AlbersAc #HVAC #hvacinstall #daikin #inverter #21SEER…”',
       image:
-        'https://instagram.fnyc1-1.fna.fbcdn.net/vp/be30e7c108137f91f7997e0680275231/5D7455DC/t51.2885-15/e35/50828080_1340957706080254_8153879655018323009_n.jpg?_nc_ht=instagram.fnyc1-1.fna.fbcdn.net',
+        'https://instagram.fphl1-1.fna.fbcdn.net/v/t51.2885-15/e35/50828080_1340957706080254_8153879655018323009_n.jpg?_nc_ht=instagram.fphl1-1.fna.fbcdn.net&_nc_cat=110&oh=b2b4078142a87c5c6d62ad071617dc8a&oe=5E8930DC',
       title:
         'Albers A/C & Heating on Instagram: “Another Install In The Books. . . #AlbersAc #HVAC #hvacinstall #daikin #inverter #21SEER #ductreplacement #ductsealing #airscrubber…”',
       url: 'https://www.instagram.com/p/BtPfkdTh0so/',
@@ -465,11 +508,11 @@ const tweets = [
       description:
         'Lawyer Robert Burke identified possible targets -- and those who were off the list -- in an appearance on Fox News.',
       image:
-        'https://www.westernjournal.com/ct/wp-content/uploads/sites/5/2019/01/Robert-Barnes-SBS-Michael-Rappaport.jpg',
+        'https://www.westernjournal.com/wp-content/uploads/2019/01/Robert-Barnes-SBS-Michael-Rappaport.jpg',
       title:
         'Covington Kids’ Attorney Lists Potential Libel Lawsuit Targets, and It’s Fantastic',
       url:
-        'https://www.westernjournal.com/ct/covington-kids-attorney-lists-potential-libel-lawsuit-targets-fantastic/',
+        'https://www.westernjournal.com/covington-kids-attorney-lists-potential-libel-lawsuit-targets-fantastic/',
     },
   },
   {
@@ -478,7 +521,7 @@ const tweets = [
     tweet_id: '1089776315056697300',
     metadata: {
       description: 'And yet the tweets with this error persist still',
-      image: 'https://assets.rbl.ms/19108282/1200x600.jpg?1557086863',
+      image: 'https://assets.rbl.ms/19108282/1200x600.jpg?1574635165',
       title:
         'Media forced to admit major correction on Native American accuser in Covington altercation',
       url:
@@ -522,7 +565,7 @@ const tweets = [
       description:
         'Lexington’s Bishop John Stowe said Covington Catholic students can’t be “pro-life” while supporting a president who “denigrates” immigrants and refugees.',
       image:
-        'https://img.huffingtonpost.com/asset/5c4b8a17240000b401486ba6.jpeg?cache=z8cihn9jrc&ops=1910_1000',
+        'https://img.huffingtonpost.com/asset/5c4b8a17240000b401486ba6.jpeg?cache=z8cihn9jrc&ops=1778_1000',
       title: 'Kentucky Catholic Bishop: Trump’s MAGA Hats Are Not ‘Pro-Life’',
       url:
         'https://www.huffpost.com/entry/bishop-john-stowe-covington-kentucky-maga-hats-abortion_n_5c4b5ae7e4b06ba6d3bcbd87',
@@ -533,11 +576,11 @@ const tweets = [
     tweet_id: '1088924548471242800',
     metadata: {
       description:
-        'Facebook Twitter Pinterest Subscribe0sharesGet the CDN Morning News BlastSubscribe to our mailing list and get interesting stuff and updates to your email inbox. You have subscribed!There was an error processing your subscription.We do not share your information with anyone for any reason.Minnesota …',
+        'Minnesota Rep. Ilhan Omar (D) spread outright lies on Twitter about the Covington Catholic High School boys. And with her atrocious record, she’s the last person that should be casting stones. https://twitter.com/IlhanMN/status/1087918469008576513 Dear friends, there is so',
       image:
         'https://www.conservativedailynews.com/wp-content/uploads/2019/01/Ilhan-Omar.jpg',
       title:
-        'Ilhan Omar: The Last Person Who Should Cast Judgement On The Covington Catholic Kids - Conservative Daily News',
+        'Ilhan Omar: The Last Person Who Should Cast Judgement On The Covington Catholic Kids',
       url:
         'https://www.conservativedailynews.com/2019/01/ilhan-omar-the-last-person-who-should-cast-judgement-on-the-covington-catholic-kids/',
     },
@@ -567,7 +610,7 @@ const tweets = [
     tweet_id: '1089908162478723100',
     metadata: {
       description:
-        'A man was escorted out of a Colorado school board meeting for naming a teacher who called the wrong Covington Catholic boy part of the &quot;Hitler Youth.&quot;',
+        'A man was escorted out of a Colorado school board meeting for naming a teacher who called the wrong Covington Catholic boy part of the “Hitler Youth.”',
       image:
         'https://cdn01.dailycaller.com/wp-content/uploads/2019/01/School-Meeting-1-e1548450773628.png',
       title:
@@ -586,7 +629,7 @@ const tweets = [
       'White victimology, white privilege and the Covington Catholic rules of race.  https://t.co/bRDX9e8Any',
     tweet_id: '1088873669672071200',
     metadata: {
-      description: '40 votes and 12 comments so far on Reddit',
+      description: '41 votes and 12 comments so far on Reddit',
       image:
         'https://external-preview.redd.it/DfzBlHMVwv7AmxYx8FnxHwKJ27isN2hdfGJlbS__9S0.jpg?auto=webp&s=c0f66ca895d6553308785aee317bfb046d8197d6',
       title:
@@ -783,8 +826,21 @@ const tweets = [
       description:
         '“@TomFitton @realArizonaDan @JudicialWatch Unfortunately by the time it’s released this will be water under the bridge. I think this was just a diversion away from the fake news coverage of the Covington issue. Just askin. https://t.co/22y0lUo9tp”',
       image: 'https://pbs.twimg.com/tweet_video_thumb/DxyXVTpV4AA-cyP.jpg',
-      title: 'You Don’t Know How I Roll... Jack on Twitter',
+      title: 'You Don’t Know Me... Jack on Twitter',
       url: 'https://twitter.com/BeeSue64687496/status/1088911615762804737',
+    },
+  },
+  {
+    text:
+      'The #CovingtonBoys might well have been Corbyn supporters if they had been British. MAGA hats suggest they are pro-industrial; their entire generation, especially the male half, has had its politics defined by wars Trump and Corbyn opposed. @georgegalloway https://t.co/WmX5V7hUV9',
+    tweet_id: '1090679539137740800',
+    metadata: {
+      description:
+        '“And so ends the war in Afghanistan. Or will do, soon enough. It has been waged for as long as the Covington Boys have been alive. Or many ...',
+      image: 'https://resources.blogblog.com/img/icon18_wrench_allbkg.png',
+      title: 'From Covington To Corbyn',
+      url:
+        'http://davidaslindsay.blogspot.com/2019/01/from-covington-to-corbyn.html',
     },
   },
   {
@@ -796,7 +852,7 @@ const tweets = [
         '“I’m so conflicted today. I simply can’t decide who I’d most like to see arrested next by the FBI — Donald Trump Jr, Jared Kushner or Steve Bannon. Can anyone help me out??”',
       image:
         'https://pbs.twimg.com/profile_images/1104107313026220035/zK03rWvS_400x400.jpg',
-      title: 'Jon Cooper on Twitter',
+      title: 'Jon Cooper 🇺🇸 on Twitter',
       url: 'https://twitter.com/joncoopertweets/status/1089584308896104453',
     },
   },
@@ -873,7 +929,7 @@ const tweets = [
     tweet_id: '1090673859727147e3',
     metadata: {
       description:
-        'Chicago police have not found video of alleged “MAGA” assailants.',
+        'The incendiary story of an alleged hate crime attack targeting Empire actor Jussie Smollett immediately went viral yesterday, with media reporting the attackers made racial and anti-gay comments while using President Trump’s “MAGA” slogan during the 2 a.m. assault in downtown Chicago. But conflic...',
       image:
         'https://static.pjmedia.com/trending/user-content/51/files/2019/01/AP_921729027040.sized-770x415xt.sized-770x415xb.jpg',
       title:
@@ -942,7 +998,7 @@ const tweets = [
       description:
         '“That was wild. I just watched a citizen escorted out of a public meeting by law enforcement when he politely mentioned a news story during the public comment period. Will be interesting to see if DougCo Schools end up in the spotlight for this. #copolitics #9NEWS”',
       image:
-        'https://pbs.twimg.com/profile_images/942597889041330176/LVXy6CLH_400x400.jpg',
+        'https://pbs.twimg.com/profile_images/1183869946880757761/WhaKvDlF_400x400.jpg',
       title: 'Kyle Clark on Twitter',
       url: 'https://twitter.com/KyleClark/status/1088620087060381698',
     },
@@ -954,7 +1010,8 @@ const tweets = [
     metadata: {
       description:
         'What has happened to the teenage boys and their families is absolutely outrageous!',
-      image: 'http://www.afa.net/media/367563/covington.png',
+      image:
+        'http://www.afa.net/media/367563/covington.png?anchor=center&mode=crop&width=800&height=419&rnd=131928788430000000',
       title: 'Stand with the Covington High School students',
       url:
         'https://www.afa.net/activism/action-alerts/2019/stand-with-the-covington-high-school-students/',
@@ -986,7 +1043,7 @@ const tweets = [
     tweet_id: '1090107762435080200',
     metadata: {
       description:
-        '‘For our rush to judgment and initial statement based on incomplete and misleading information, we apologize...’',
+        'For our rush to judgment and initial statement based on incomplete and misleading information, we apologize...',
       image:
         'https://assets.lifesitenews.com/images/made/images/remote/https_www.lifesitenews.com/images/local/P1000127_1024_512_75_s_c1.JPG',
       title:
@@ -1106,7 +1163,7 @@ const tweets = [
       description:
         'The group’s members are known for aggressively preaching in public, and the Southern Poverty Law Center has scrutinized some factions as a hate group.',
       image:
-        'https://amp.businessinsider.com/images/5c49fa48bde70f71da7806af-1920-960.jpg',
+        'https://image.businessinsider.com/5c49fa48bde70f71da7806af?width=1200&format=jpeg',
       title:
         'Here’s what to know about the Black Hebrew Israelites, the group of protesters that has shot to the center of the Covington Catholic controversy',
       url:
@@ -1119,10 +1176,10 @@ const tweets = [
     tweet_id: '1088820354242564100',
     metadata: {
       description:
-        '“@LordScrump An interesting theory from anon on why they are laying off staff now. Perhaps the Covington incident has something to do with it. Can’t think that the fake story about Trump really helped Buzzfeed.”',
-      image: 'https://pbs.twimg.com/media/DxxD28SW0AAB_Pg.jpg:large',
-      title: 'Diddy Amin 🏴󠁧󠁢󠁥󠁮󠁧󠁿 on Twitter',
-      url: 'https://twitter.com/Diddy_Amin/status/1088820354242564096',
+        'From breaking news and entertainment to sports and politics, get the full story with all the live commentary.',
+      image: null,
+      title: 'Twitter / Account Suspended',
+      url: 'https://twitter.com/account/suspended',
     },
   },
   {
@@ -1168,11 +1225,11 @@ const tweets = [
     tweet_id: '1089295879998136300',
     metadata: {
       description:
-        'Aaaaand, the gaslighting around the Covington Catholic High School controversy has begun. “He wasn’t smirking...he was nervous.” “He was frightened...that man was right in his face!” “There were black Muslims saying awful things to those boys!” “The press is distorting the narrative because of their…',
+        'Aaaaand, the gaslighting around the Covington Catholic High School controversy has begun. “He wasn’t smirking...he was nervous.” “He was frightened...that man was right in his face',
       image:
         'https://www.eclectablog.com/wp-content/uploads/2016/06/GetTrumpsHate.png',
       title:
-        'Let the Gaslighting Commence: Covington Catholic High School Edition | Eclectablog',
+        'Let the Gaslighting Commence: Covington Catholic High School Edition |',
       url:
         'https://www.eclectablog.com/2019/01/let-the-gaslighting-commence-covington-catholic-high-school-edition.html',
     },
@@ -1248,7 +1305,7 @@ const tweets = [
     tweet_id: '1089126703446671400',
     metadata: {
       description:
-        '‘We should not have allowed ourselves to be bullied and pressured into making a statement prematurely, and we take full responsibility for it.’',
+        'We should not have allowed ourselves to be bullied and pressured into making a statement prematurely, and we take full responsibility for it.',
       image:
         'https://assets.lifesitenews.com/images/made/images/remote/https_www.lifesitenews.com/images/local/Bishop_Roger_Joseph_Foys_1024_512_75_s_c1.jpg',
       title:
@@ -1261,6 +1318,18 @@ const tweets = [
     text:
       '@JoeTalkShow if Smollett is lying, his timing sure is bad coming right after the Covington boys false story.',
     tweet_id: '1091158209950335e3',
+  },
+  {
+    text:
+      'I like this boy vs the other lil Covington Catholic boy🤷🏾‍♂️RNS https://t.co/JNURCa5nyj',
+    tweet_id: '1088910839950860300',
+    metadata: {
+      description:
+        'From breaking news and entertainment to sports and politics, get the full story with all the live commentary.',
+      image: null,
+      title: 'Twitter / Account Suspended',
+      url: 'https://twitter.com/account/suspended',
+    },
   },
   {
     text:
@@ -1279,11 +1348,11 @@ const tweets = [
       description:
         'A Colorado schoolteacher and union leader has resigned from her union position, after being placed on paid leave for doxxing the wrong Covington Catholic student and calling him a Hitler Youth online.',
       image:
-        'https://media.townhall.com/townhall/reu/s1280x720/2019/22/eadb0e5a-aedb-4363-a2cf-b45e2f7434fe.png?516',
+        'https://media.townhall.com/townhall/reu/s1280x720/2019/22/eadb0e5a-aedb-4363-a2cf-b45e2f7434fe.png?2417',
       title:
         'Middle School Teacher Put on Leave After Misidentifying and Doxxing Covington Catholic Student, Calling Him ‘Hitler Youth’',
       url:
-        'https://townhall.com/tipsheet/briannaheldt/2019/01/28/middle-school-teacher-put-on-leave-after-misidentifying-and-doxxing-covington-catholic-student-calling-him-hitler-youth-n2540371?516',
+        'https://townhall.com/tipsheet/briannaheldt/2019/01/28/middle-school-teacher-put-on-leave-after-misidentifying-and-doxxing-covington-catholic-student-calling-him-hitler-youth-n2540371',
     },
   },
   {
@@ -1302,10 +1371,10 @@ const tweets = [
     tweet_id: '1089567670750638100',
     metadata: {
       description:
-        '“@AlexMLeo Oh cool, you’re a #VerifiedBully on the Covington lawsuit list. I’m not surprised. Enjoy the lawsuit for your libel and slander! I know I certainly will.”',
-      image: 'https://pbs.twimg.com/media/Dx7sAqvV4AAkKLr.jpg:large',
-      title: 'Punished Bendilin on Twitter',
-      url: 'https://twitter.com/BendilinSpurr/status/1089567670750638080',
+        'From breaking news and entertainment to sports and politics, get the full story with all the live commentary.',
+      image: null,
+      title: 'Twitter / Account Suspended',
+      url: 'https://twitter.com/account/suspended',
     },
   },
   {
@@ -1353,7 +1422,7 @@ const tweets = [
       description:
         '“This morning in #Covington. While my small-to-mid-sized office didn’t close due to the extreme wind chill, many others did have the day off, so the drive wasn’t quite painful.”',
       image: 'https://pbs.twimg.com/media/DyLhPXDX4AEku-Y.jpg:large',
-      title: 'tom allen on Twitter',
+      title: 'tom for president 2020 on Twitter',
       url: 'https://twitter.com/TheAllenCompany/status/1090681722180681728',
     },
   },
@@ -1378,11 +1447,11 @@ const tweets = [
     metadata: {
       description: 'Smear.',
       image:
-        'https://media.townhall.com/townhall/reu/s1280x720/2018/310/9f056f49-a1ae-4291-bc8b-687a3ebbe430.jpg?516',
+        'https://media.townhall.com/townhall/reu/s1280x720/2018/310/9f056f49-a1ae-4291-bc8b-687a3ebbe430.jpg?2417',
       title:
         'Dems’ State of the Union Responder: Those Covington Kids Behaved Badly, And Trump’s Racism is to Blame',
       url:
-        'https://townhall.com/tipsheet/guybenson/2019/02/01/dems-state-of-the-union-responder-shame-on-those-covington-kids-n2540664?516',
+        'https://townhall.com/tipsheet/guybenson/2019/02/01/dems-state-of-the-union-responder-shame-on-those-covington-kids-n2540664',
     },
   },
   {
@@ -1402,16 +1471,6 @@ const tweets = [
     text:
       'Hacks on Hacks on Covington, Schultz, and the Worst of the Beacon via @freebeacon https://t.co/G3sFXY3haT',
     tweet_id: '1090977116496240600',
-    metadata: {
-      description:
-        'On the inaugural episode of Hacks on Hacks, the gang takes a look at the myriad media failures surrounding the treatment of the Covington kids, wonders why Howard Schultz and Evan McMullin might receive different treatment, and exposes the worst thing the Free Beacon did this week.',
-      image:
-        'https://freebeacon.com/wp-content/uploads/2017/08/open-graph-fallback.jpg',
-      title:
-        'Hacks on Hacks on Covington, Schultz, and the Worst of the Beacon - Washington Free Beacon',
-      url:
-        'https://freebeacon.com/podcasts/hacks-on-hacks-on-covington-schultz-and-the-worst-of-the-beacon/',
-    },
   },
   {
     text:
@@ -1494,13 +1553,13 @@ const tweets = [
     tweet_id: '1090035897272336400',
     metadata: {
       description:
-        'It is one of the political Left’s great internal paradoxes that it so noxiously issues preening paeans to the collective while it also labors so diligently to divvy up the body politic along class, race, ethnic, and gender lines.',
+        'It is one of the political Left’s great internal paradoxes that it so noxiously issues preening paeans to the collective while it also labors so diligently to divvy up the body politic along class, race, ethnic, and gender lines. On the one hand, we see leftist darlings like Sen. Kamala Harris (D-CA…',
       image:
-        'https://www.dailywire.com/sites/default/files/styles/open_graph/public/default_images/dw_og_default.png?itok=l4pxJ0u8',
+        'https://www.dailywire.com/_next/static/images/og-default-c9cedefcdc94eaabd858f96553dcd08e.jpg',
       title:
         'HAMMER: Covington Catholic Debacle Is The Latest Manifestation Of The Left’s Identity Politics Obsession',
       url:
-        'https://www.dailywire.com/news/42753/hammer-covington-catholic-debacle-latest-josh-hammer',
+        'https://www.dailywire.com/news/hammer-covington-catholic-debacle-latest-josh-hammer',
     },
   },
   {
@@ -1510,7 +1569,7 @@ const tweets = [
     metadata: {
       description: 'Dear White Boys,',
       image:
-        'https://i.kinja-img.com/gawker-media/image/upload/s--Dm65rPSQ--/c_fill,fl_progressive,g_center,h_900,q_80,w_1600/mvef1wdfcplwu3gw7j6j.jpg',
+        'https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/mvef1wdfcplwu3gw7j6j.jpg',
       title:
         'An Open Apology to the Covington Catholic MAGA Hat Harassment Team',
       url:
@@ -1538,9 +1597,9 @@ const tweets = [
     metadata: {
       description: null,
       image:
-        'https://teapartypac.org/wp-content/uploads/sites/40/2019/01/1-106-600x338.jpg',
+        'https://teapartypac.org/wp-content/uploads/sites/3/2019/01/1-106-600x338.jpg',
       title:
-        '“Conservative” Never-Trumpers Who Piled On Covington Kids Just Got A Taste of Their Own MedicineAbsolutely Disgusting: Rent-A-Child Services Thrive At Border As Crisis Rages OnAbsolutely Disgusting: Rent-A-Child Services Thrive At Border As Crisis Rages On“Bigger Than Watergate” Trump Responds To New Revelation Into Spygate Scandal“NowThis” Video Features Radical Ilhan Omar Blatantly Lying About President Trump,...',
+        '“Conservative” Never-Trumpers Who Piled On Covington Kids Just Got A Taste of Their Own Medicine | Tea Party Pac',
       url:
         'https://teapartypac.org/conservative-never-trumpers-who-piled-on-covington-kids-just-got-a-taste-of-their-own-medicine/',
     },
@@ -1576,7 +1635,7 @@ const tweets = [
     metadata: {
       description: '“https://t.co/b1I5AXD3o2”',
       image: 'https://pbs.twimg.com/media/DxyvxWzV4AAR5XZ.jpg:large',
-      title: 'Soldier of Q on Twitter',
+      title: '🇨🇦Soldier of Q🇺🇸 on Twitter',
       url: 'https://twitter.com/BGEMB/status/1088938488857350145',
     },
   },
@@ -1600,7 +1659,7 @@ const tweets = [
     tweet_id: '1089150165280346100',
     metadata: {
       description:
-        '‘We should not have allowed ourselves to be bullied and pressured into making a statement prematurely, and we take full responsibility for it.’',
+        'We should not have allowed ourselves to be bullied and pressured into making a statement prematurely, and we take full responsibility for it.',
       image:
         'https://assets.lifesitenews.com/images/made/images/remote/https_www.lifesitenews.com/images/local/Bishop_Roger_Joseph_Foys_1024_512_75_s_c1.jpg',
       title:
@@ -1615,7 +1674,7 @@ const tweets = [
     tweet_id: '1088971213001523200',
     metadata: {
       description:
-        'In Colorado, a Covington-student-hating teacher’s been placed on leave after attacking an innocent teenager. The Catholic school kids’ encounter with...',
+        'In Colorado, a Covington-student-hating teacher’s been placed on leave after attacking an innocent teenager. The Catholic school kids’ encounter with faux-veteran (courtesy of RedState gunslinger streiff) Nathan Phillips has echoed through the Americasphere, and those reverberations are generati…',
       image:
         'https://www.redstate.com/wp-content/uploads/2019/01/nathan-phillips-covington-students-SCREENSHOT-1024x512.jpg',
       title:
@@ -1644,13 +1703,12 @@ const tweets = [
       'What the Covington High School Incident Tells Us About America https://t.co/3f6seo5FON',
     tweet_id: '1091125397595586600',
     metadata: {
-      description:
-        'Scott Rasmussen: On Jan. 19, a moment arrived that nobody anticipated and',
+      description: 'On Jan. 19, a moment arrived that nobody anticipated and',
       image:
-        'https://media.townhall.com/townhall/reu/s1280x720/images/2019/20/06a140e0-6f9f-4519-bcba-e5ffc2248856.png?516',
+        'https://media.townhall.com/townhall/reu/s1280x720/images/2019/20/06a140e0-6f9f-4519-bcba-e5ffc2248856.png?2417',
       title: 'What the Covington High School Incident Tells Us About America',
       url:
-        'https://townhall.com/columnists/scottrasmussen/2019/01/31/what-the-covington-high-school-incident-tells-us-about-america-n2540550?516',
+        'https://townhall.com/columnists/scottrasmussen/2019/01/31/what-the-covington-high-school-incident-tells-us-about-america-n2540550',
     },
   },
   {
@@ -1710,6 +1768,19 @@ const tweets = [
   },
   {
     text:
+      'FreeRepublic:  BuzzFeed, Covington and the Media&amp;#x92;s Self-Inflicted Wounds https://t.co/FrQmLoW0yG',
+    tweet_id: '1089345766886322200',
+    metadata: {
+      description: null,
+      image:
+        'https://cdn.newsbusters.org/styles/blog_body-50/s3/images/bf_0.jpg',
+      title: 'BuzzFeed, Covington and the Media�s Self-Inflicted Wounds',
+      url:
+        'https://www.freerepublic.com/focus/f-news/3723184/posts?utm_source=dlvr.it&utm_medium=twitter',
+    },
+  },
+  {
+    text:
       '@WayneDupreeShow What do the Covington boys have to do with real talk? Considering issues pressing, how is this papercut a priority?',
     tweet_id: '1088825053607649300',
   },
@@ -1721,7 +1792,7 @@ const tweets = [
       description:
         'The latest addition in America’s thick book of Rorschach tests on race.',
       image:
-        'https://www.washingtonpost.com/resizer/wz7pHsnmcf7-NmnlhLT5EEsSdNA=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WUYAUCA4MAI6TOHGKZYZBQX5BA.jpg',
+        'https://www.washingtonpost.com/resizer/_7QKYqeBEj91VFJbBwDc1e_axPs=/1440x0/smart/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WUYAUCA4MAI6TOHGKZYZBQX5BA.jpg',
       title: 'Opinion | Time to take on the Covington ‘smirk’',
       url:
         'https://www.washingtonpost.com/opinions/2019/01/25/time-take-covington-smirk/',
@@ -1749,7 +1820,7 @@ const tweets = [
       description:
         'No amount of rude, homophobic, racist, anti-Catholic invective from loons such as the Black Hebrew Israelites justifies the students’ actions.',
       image:
-        'https://www.washingtonpost.com/resizer/B7loInZVvaF9ViRIgLo8cL43284=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/X7WSAPA5HEI6TJ2ZFOCUDO56EA.jpg',
+        'https://www.washingtonpost.com/resizer/4HNFWOFVLQcGBX9WaNeig4gLdwg=/1440x0/smart/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/X7WSAPA5HEI6TJ2ZFOCUDO56EA.jpg',
       title: 'Opinion | Nothing justifies what the Covington students did',
       url:
         'https://www.washingtonpost.com/opinions/2019/01/23/nothing-justifies-what-covington-students-did/',
@@ -1761,7 +1832,7 @@ const tweets = [
     tweet_id: '1089301133787422700',
     metadata: {
       description:
-        'Charlie Rogers, 25, is the black basketball player seen in a viral photo being jeered at by Covington Catholic High School fans in Kentucky who were in blackface. He believes it was not racially motivated.',
+        'Shocking images of high school basketball fans painted head to toe in black screaming at an African American player were not racially motivated, the player himself believes, DailyMail.com can reveal.',
       image:
         'https://i.dailymail.co.uk/1s/2019/01/23/21/8906368-0-image-a-59_1548279666847.jpg',
       title:
@@ -1780,7 +1851,8 @@ const tweets = [
       "CNN's 'Information Warfare Expert' Duped by Twitter Bot Pushing Dubious MAGA Hat Teen Vid https://t.co/mmqmHtnnzy #Trending via @pjmedia_com",
     tweet_id: '1088913462514704400',
     metadata: {
-      description: 'How hard can you fail and still be considered an “expert?”',
+      description:
+        'CNN reports that Twitter account&nbsp;@2020fight,&nbsp;one of the primary outlets pushing the dubiously edited video of the encounter between the Covington Catholic High School students and Native American activist Nathan Phillips this past weekend, has been shut down for being a suspected bot ac...',
       image:
         'https://static.pjmedia.com/trending/user-content/51/files/2019/01/Molly-McKew-Information-Warfare.sized-770x415xb.png',
       title:
@@ -1810,7 +1882,7 @@ const tweets = [
     tweet_id: '1088948196569686e3',
     metadata: {
       description:
-        'A man was escorted out of a Colorado school board meeting for naming a teacher who called the wrong Covington Catholic boy part of the &quot;Hitler Youth.&quot;',
+        'A man was escorted out of a Colorado school board meeting for naming a teacher who called the wrong Covington Catholic boy part of the “Hitler Youth.”',
       image:
         'https://cdn01.dailycaller.com/wp-content/uploads/2019/01/School-Meeting-1-e1548450773628.png',
       title:
@@ -1830,7 +1902,7 @@ const tweets = [
     tweet_id: '1090286036511526900',
     metadata: {
       description:
-        'Rep. Ilhan Omar’s tweet accused the students of taunting and she also said Nick Sandmann’s family ‘hired a right wing PR firm to write his non-apology.’',
+        'Rep. Ilhan Omars tweet accused the students of taunting and she also said Nick Sandmanns family hired a right wing PR firm to write his non-apology.',
       image:
         'https://assets.lifesitenews.com/images/made/images/remote/https_www.lifesitenews.com/images/local/Rep._Ilhan_Omar_1024_512_75_s_c1.jpg',
       title:
@@ -1875,14 +1947,6 @@ const tweets = [
     text:
       'I live in Covington, with many friends of various backgrounds and races. I’m heartbroken by your story. When will it change?  Thank you for sharing. https://t.co/p5cG28uY6h',
     tweet_id: '1.0895082622554481e+018',
-    metadata: {
-      description:
-        '“I grew up and lived in and around Covington, where the “Covington boys” live. Check out my article in Elle about what the dynamics of that were like https://t.co/uGd56QZc4t”',
-      image:
-        'https://pbs.twimg.com/profile_images/1111171372485476354/hvetf8-b_400x400.jpg',
-      title: 'Keith S. Wilson on Twitter',
-      url: 'https://twitter.com/robottomulatto/status/1088897036936716289',
-    },
   },
   {
     text:
@@ -1954,6 +2018,18 @@ const tweets = [
     tweet_id: '1089400779994103800',
   },
   {
+    text: 'Taken from https://t.co/J5fJ9Rx5oE',
+    tweet_id: '1088835173540679700',
+    metadata: {
+      description: null,
+      image:
+        'https://www.thenewneo.com/wp-content/plugins/ultimate-social-media-icons/images/follow_subscribe.png',
+      title: 'Covington and the politics of aggressive standing – The New Neo',
+      url:
+        'https://www.thenewneo.com/2019/01/24/covington-and-the-politics-of-aggressive-standing/',
+    },
+  },
+  {
     text:
       "Michelle Malkin BLASTS Liberal Media's Reprehensible Covington Coverage - Gives Shout Out to Gateway Pundit Writers (VIDEO) https://t.co/Q2fVxk1EcD via @gatewaypundit",
     tweet_id: '1088859773783572500',
@@ -1996,6 +2072,11 @@ const tweets = [
   },
   {
     text:
+      'Most of you "conservative pundits"showed your asses with Covington last week, now more https://t.co/Qgr7EqfKjh more weak ass apologies in 3 weeks?',
+    tweet_id: '1088985121963810800',
+  },
+  {
+    text:
       '@DineshDSouza @orangebass Maybe if he says he went to Covington Catholic he can just apologize.',
     tweet_id: '1088834491295166500',
   },
@@ -2005,7 +2086,7 @@ const tweets = [
     metadata: {
       description: '“I know the kids meant nothing by it.”',
       image:
-        'https://s.newsweek.com/sites/www.newsweek.com/files/styles/full/public/2019/01/23/screen-shot-2019-01-21-10.png',
+        'https://d.newsweek.com/en/full/1301835/screen-shot-2019-01-21-10.png',
       title:
         'Covington High School students in blackface pep rally video were “just showing school spirit”',
       url:
@@ -2062,7 +2143,7 @@ const tweets = [
     tweet_id: '1089244898467987500',
     metadata: {
       description:
-        'Charlie Rogers, 25, is the black basketball player seen in a viral photo being jeered at by Covington Catholic High School fans in Kentucky who were in blackface. He believes it was not racially motivated.',
+        'Shocking images of high school basketball fans painted head to toe in black screaming at an African American player were not racially motivated, the player himself believes, DailyMail.com can reveal.',
       image:
         'https://i.dailymail.co.uk/1s/2019/01/23/21/8906368-0-image-a-59_1548279666847.jpg',
       title:
@@ -2089,7 +2170,7 @@ const tweets = [
     tweet_id: '1090364852311388200',
     metadata: {
       description:
-        'Has roots in ‘blatant racism,’ shows ‘nature of white fragility.’',
+        'Has roots in ‘blatant racism,’ shows ’nature of white fragility.',
       image:
         'https://www.thecollegefix.com/wp-content/uploads/2016/12/MAGA.Shutterstock.jpg',
       title:
@@ -2172,7 +2253,7 @@ const tweets = [
       description:
         'Sarah Huckabee Sanders recently said she’s never “seen people so happy to destroy a kid’s life.” David Hogg begs to differ.',
       image:
-        'https://www.nydailynews.com/resizer/iMPxiPQaO9mZEDeltTVn4_oOFg4=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/SYFFEBFONNCA3HQTMQYVS5IJEU.jpg',
+        'https://www.nydailynews.com/resizer/N-qEyZDj4kWeKTJlxNFz1oP__TI=/1200x0/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/SYFFEBFONNCA3HQTMQYVS5IJEU.jpg',
       title:
         'Parkland survivor David Hogg sees double standard in defense of Covington Catholic students',
       url:
@@ -2198,11 +2279,11 @@ const tweets = [
     text: 'Covington https://t.co/uw42s2I6JB',
     tweet_id: '1090848838175346700',
     metadata: {
-      description: '“Tryna prove a point”',
-      image:
-        'https://pbs.twimg.com/profile_images/1105563352389091328/d6JFYlzH_400x400.jpg',
-      title: 'ً on Twitter',
-      url: 'https://twitter.com/Privatetwwitter/status/1090847416297967616',
+      description:
+        'From breaking news and entertainment to sports and politics, get the full story with all the live commentary.',
+      image: null,
+      title: 'Twitter / Account Suspended',
+      url: 'https://twitter.com/account/suspended',
     },
   },
   {
@@ -2241,10 +2322,11 @@ const tweets = [
     tweet_id: '1088820587944923100',
     metadata: {
       description:
-        'During Tuesday’s episode of “The View,” co-host Whoopi Goldberg asked why so many people admittedly made “snap judgment” about the Covington Kids, blaming them as the aggressors during a',
-      image: 'https://cdn.cnsnews.com/joy_behar.png',
+        '“The View” co-host Joy Behar (Screenshot) During Tuesday’s episode of “The View,” co-host Whoopi Goldberg asked why so many people admittedly made “snap judgment” about the Covington Kids, blaming them as the aggressors during a confrontation with a Native American “when different rallies converge…',
+      image:
+        'https://cdn.cnsnews.com/styles/article_big/s3/joy_behar.png?itok=_luw_Gwl',
       title:
-        'Joy Behar on Why Liberals Made ‘Snap Judgments’ About the Covington',
+        'Joy Behar on Why Liberals Made ‘Snap Judgments’ About the Covington Kids: ‘Cause We’re Desperate to Get Trump Out of Office’',
       url:
         'https://www.cnsnews.com/blog/melanie-arter/joy-behar-why-liberals-made-snap-judgments-about-covington-kids-cause-were',
     },
@@ -2282,7 +2364,7 @@ const tweets = [
       description:
         'Lexington’s Bishop John Stowe said Covington Catholic students can’t be “pro-life” while supporting a president who “denigrates” immigrants and refugees.',
       image:
-        'https://img.huffingtonpost.com/asset/5c4b8a17240000b401486ba6.jpeg?cache=z8cihn9jrc&ops=1910_1000',
+        'https://img.huffingtonpost.com/asset/5c4b8a17240000b401486ba6.jpeg?cache=z8cihn9jrc&ops=1778_1000',
       title: 'Kentucky Catholic Bishop: Trump’s MAGA Hats Are Not ‘Pro-Life’',
       url:
         'https://www.huffpost.com/entry/bishop-john-stowe-covington-kentucky-maga-hats-abortion_n_5c4b5ae7e4b06ba6d3bcbd87',
@@ -2309,6 +2391,21 @@ const tweets = [
   },
   {
     text:
+      "How the Covington Catholic firestorm reinforced America's divisions https://t.co/gIFX26wTm6",
+    tweet_id: '1089319747701870600',
+    metadata: {
+      description:
+        'Analysis: If there is anything to be gleaned from the reaction to the viral video, it is that most Americans live in bubbles filled by people like them.',
+      image:
+        'http://static-entertainment-eus-s-msn-com.akamaized.net/sc/82/c22c7d.gif',
+      title:
+        'How the Covington Catholic firestorm reinforced America’s divisions',
+      url:
+        'https://www.nbcnews.com/news/nbcblk/how-covington-catholic-firestorm-reinforced-america-s-divisions-n962806',
+    },
+  },
+  {
+    text:
       '@NCRegister I am hoping that people will not rush to judgement and take into consideration that this "Allegation" was made on Twitter...\nHopefully we all learned something from the students from Covington KY...\nLet\'s let the facts present themselves...and Pray this isn\'t true...✝',
     tweet_id: '1090763713412558800',
   },
@@ -2329,7 +2426,7 @@ const tweets = [
       title:
         'The Viral Lincoln Memorial Confrontation Shows We’re Ill-Equipped to Deal With Online Disinformation',
       url:
-        'http://time.com/5509832/covington-catholic-nathan-phillips-social-media-division/',
+        'https://time.com/5509832/covington-catholic-nathan-phillips-social-media-division/',
     },
   },
   {
@@ -2383,7 +2480,7 @@ const tweets = [
       description:
         'The March for Life apologized Monday for rushing to judgment on the Covington Catholic students, saying they experienced',
       image:
-        'https://twt-thumbs.washtimes.com/media/image/2019/01/19/Native_American_March_Videos_10578.jpg-35417_s2048x1120.jpg?bb1a56506de28d20341c7c6a60ce06551fbec350',
+        'https://twt-thumbs.washtimes.com/media/image/2019/01/19/Native_American_March_Videos_10578.jpg-35417_c0-0-3207-1870_s1770x1032.jpg?f5d371b530a9e83e251a7ab05e8f26d7aa4983f1',
       title: 'March for Life apologizes to Covington Catholic teens for ’rush',
       url:
         'https://www.washingtontimes.com/news/2019/jan/28/march-life-apologizes-covington-catholic-teens-rus/',
@@ -2395,7 +2492,7 @@ const tweets = [
     tweet_id: '1089166666020335600',
     metadata: {
       description:
-        'A man was escorted out of a Colorado school board meeting for naming a teacher who called the wrong Covington Catholic boy part of the &quot;Hitler Youth.&quot;',
+        'A man was escorted out of a Colorado school board meeting for naming a teacher who called the wrong Covington Catholic boy part of the “Hitler Youth.”',
       image:
         'https://cdn01.dailycaller.com/wp-content/uploads/2019/01/School-Meeting-1-e1548450773628.png',
       title:
@@ -2439,31 +2536,11 @@ const tweets = [
     text:
       'Attorney Robert Barnes Lists Members Of Media, Hollywood Elites Who Will Be Sued By Covington Students (Video) https://t.co/qQ6nJY15c0',
     tweet_id: '1089932062361088e3',
-    metadata: {
-      description:
-        '(Gateway Pundit) – Attorney Robert Barnes joined Jesse Watters on Watters’ World Saturday night to discuss the Covington student lawsuits. Barnes is representing several students in lawsuits against media and Hollywood personalities. On Saturday Barnes told Jesse the names of several personalities w…',
-      image:
-        'https://www.teaparty.org/wp-content/uploads/2019/01/robert-barnes-3.jpg',
-      title:
-        'Attorney Robert Barnes Lists Members Of Media, Hollywood Elites Who Will Be Sued By Covington Students (Video) - Tea Party News',
-      url:
-        'https://www.teaparty.org/attorney-robert-barnes-lists-members-media-hollywood-elites-will-sued-covington-students-video-343906/',
-    },
   },
   {
     text:
       'WATCH: HEATHEN Bill Maher Attack Covington Catholic Students In Disgusting Tirade, ‘Jokes’ About Pedophilia - https://t.co/UNnZXOrIab',
     tweet_id: '1090518664455979e3',
-    metadata: {
-      description:
-        'Liberal Bill Maher attacked the Covington Catholic High School students on his show “Real Time” Friday, launching into a disgusting tirade that included jokes about pedophilia. During a monologue addressing the incident, Maher targeted Nicholas Sandmann, the 16-year-old student at the center of the …',
-      image:
-        'https://conservativemedia.us/wp-content/uploads/2019/01/3-20-1000x600.jpg',
-      title:
-        'WATCH: Bill Maher Attacks Covington Catholic Students In Disgusting Tirade, ‘Jokes’ About Pedophilia',
-      url:
-        'https://conservativemedia.us/u-s/watch-bill-maher-attacks-covington-catholic-students-in-disgusting-tirade-jokes-about-pedophilia/',
-    },
   },
   {
     text:
@@ -2473,11 +2550,11 @@ const tweets = [
       description:
         'Even after the truth is out, the liberal narrative keeps twisting it.',
       image:
-        'https://www.westernjournal.com/ct/wp-content/uploads/sites/5/2019/01/covington-cartoon-new.jpg',
+        'https://www.westernjournal.com/wp-content/uploads/2019/01/covington-cartoon-new.jpg',
       title:
         'Large Newspaper Publisher Runs Huge 8-Panel, Color Comic Attacking Covington Kids',
       url:
-        'https://www.westernjournal.com/ct/large-newspaper-publisher-runs-huge-8-panel-color-comic-attacking-covington-kids/',
+        'https://www.westernjournal.com/large-newspaper-publisher-runs-huge-8-panel-color-comic-attacking-covington-kids/',
     },
   },
   {
@@ -2537,7 +2614,7 @@ const tweets = [
       description:
         '“@HashTagFuckGod Here’s why Covington (across from Cinci) is aka..\nSin City, Crackers Fuckin l’ll Boys Kintucky..Yee Haw ha.”',
       image: 'https://pbs.twimg.com/media/Dx0TofdU8AIdVsf.jpg:large',
-      title: 'rumple stiltskin on Twitter',
+      title: 'rumple stiltskin; on Twitter',
       url: 'https://twitter.com/rumplestilt49/status/1089051277621977088',
     },
   },
@@ -2553,6 +2630,19 @@ const tweets = [
         'Maher Trashes ‘Prick,’ ‘Smirkface’ Covington Kid w ‘S***-Eating Grin’',
       url:
         'https://www.newsbusters.org/blogs/nb/brad-wilmouth/2019/01/26/maher-trashes-pr-smirkface-covington-kid-w-s-eating-grin',
+    },
+  },
+  {
+    text:
+      'JOHN HAWKINS: Long Term, How Do We Live With the Sorts of People Smearing Covington Catholic Teen Ni… https://t.co/5ygJhXiov2',
+    tweet_id: '1089363800707473400',
+    metadata: {
+      description: null,
+      image:
+        'https://static.pjmedia.com/static/20034/instapundit/wp-content/themes/instapundit_responsive/images/instapundit-logo.png',
+      title:
+        'Instapundit » Blog Archive » JOHN HAWKINS: Long Term, How Do We Live With the Sorts of People Smearing Covington Catholic Teen Ni…',
+      url: 'https://pjmedia.com/instapundit/319848/',
     },
   },
   {
@@ -2620,7 +2710,7 @@ const tweets = [
     tweet_id: '1091067261929041900',
     metadata: {
       description:
-        'More Queen on DVD: http://adf.ly/aGNvM “This remix is very close to the final album version. The bass lines seem to be a bit more prominent in the mix and th...',
+        'You can support me on Patreon: https://www.patreon.com/QueenHouse85 Instagram: https://www.instagram.com/queenhouse85/ Facbook: https://www.facebook.com/Quee...',
       image: 'https://i.ytimg.com/vi/YoDh_gHDvkk/hqdefault.jpg',
       title: 'Queen & David Bowie - Under Pressure (Classic Queen Mix)',
       url: 'https://www.youtube.com/watch?v=YoDh_gHDvkk',
@@ -2630,16 +2720,6 @@ const tweets = [
     text:
       "Covington Catholic kids defend wearing blackface on Fox News: 'It’s just showing school spirit' https://t.co/32dM9mlc5x.   How is anyone defending these people?",
     tweet_id: '1088828162471952400',
-    metadata: {
-      description:
-        'Two students from Covington Catholic High School appeared on “Fox & Friends” on Wednesday to defend their school’s reputation -- and even went so far as to say it was OK for past students to have worn what appeared to be blackface makeup at sporting events. During the interview, host Steve Doocy ask…',
-      image:
-        'https://www.rawstory.com/wp-content/uploads/2019/01/fox-friends-covington-2.jpg',
-      title:
-        'Covington Catholic kids defend wearing blackface on Fox News: ‘It’s just showing school spirit’',
-      url:
-        'https://www.rawstory.com/2019/01/covington-catholic-kids-defend-wearing-blackface-fox-news-just-showing-school-spirit/',
-    },
   },
   {
     text:
@@ -2664,16 +2744,6 @@ const tweets = [
     text:
       'Covington Kids’ Attorney Lists Potential Libel Lawsuit Targets, and It’s Fantastic - https://t.co/kDWh3v412w',
     tweet_id: '1090182696641458200',
-    metadata: {
-      description:
-        'Attorney Robert Barnes is representing several students from Covington Catholic High School who he says were libeled in the aftermath of the incident at the Life for March. And, in an appearance on Fox News over the weekend, he listed the individuals he would be going after. First, those who are in …',
-      image:
-        'https://conservativemedia.us/wp-content/uploads/2019/01/Untitled1-5-1-1000x600.jpg',
-      title:
-        'Covington Kids’ Attorney Lists Potential Libel Lawsuit Targets, and It’s Fantastic',
-      url:
-        'https://conservativemedia.us/u-s/covington-kids-attorney-lists-potential-libel-lawsuit-targets-and-its-fantastic/',
-    },
   },
   {
     text:
@@ -2725,11 +2795,16 @@ const tweets = [
     tweet_id: '1090081425720655900',
     metadata: {
       description:
-        '“@GregoryMcKelvey @realDonaldTrump I don’t mind if you did not want to go to Vietnam, just don’t say you were there when you were not #StolenValor #FakeNews #Covington”',
-      image: 'https://pbs.twimg.com/media/DyC_RxgVYAA7cnO.jpg:large',
-      title: 'Alan ❌ on Twitter',
-      url: 'https://twitter.com/alanwhite1000/status/1090081425720655873',
+        'From breaking news and entertainment to sports and politics, get the full story with all the live commentary.',
+      image: null,
+      title: 'Twitter / Account Suspended',
+      url: 'https://twitter.com/account/suspended',
     },
+  },
+  {
+    text:
+      '“The young man’s cavalier statement about genocide and dispossession is the voice of privilege in this country, speaking in unadulterated tones, unleashed by the self-described “winner,” Donald Trump.” https://t.co/Yl8UH4HZ7A',
+    tweet_id: '1088854018124701700',
   },
   {
     text:
@@ -2789,14 +2864,11 @@ const tweets = [
     text: '@godblesstoto https://t.co/UsQZtGyt4x',
     tweet_id: '1089538438767018e3',
     metadata: {
-      description:
-        'A woman claims that they shouted “MAGA” and “slut” at her and a friend.',
-      image:
-        'https://images.hellogiggles.com/uploads/2019/01/22094705/MAGA-e1548179318204.jpg',
-      title:
-        'The MAGA boys may have harassed women before the now-viral incident—and there’s even video',
+      description: null,
+      image: null,
+      title: 'Redirect Notice',
       url:
-        'https://hellogiggles.com/news/woman-claims-covington-catholic-maga-students-harassed-her/',
+        'https://www.google.com/url?q=https://hellogiggles.com/news/woman-claims-covington-catholic-maga-students-harassed-her/amp/',
     },
   },
   {
@@ -2840,6 +2912,11 @@ const tweets = [
   },
   {
     text:
+      "Here's democrat @GovernorVA , the infanticidal governor of VA in full black face with a klansman for good measure. Will the Covington hate mob attack? Yearbook content is fair game after Kavanaugh, sorry.\n\n#RalphNortham \n#blackhistorymonth https://t.co/H0GfKrpOUf",
+    tweet_id: '1091418428320018400',
+  },
+  {
+    text:
       '"Western society has moved steadily into Orwellian territory. When the first brief clip of Sandmann made the electronic rounds, Right-Thinking People joined together in making him the object of their Two Minutes Hate." https://t.co/KjRJnF5S97 #Covington',
     tweet_id: '1089891345320296400',
     metadata: {
@@ -2870,7 +2947,7 @@ const tweets = [
     tweet_id: '1089278169981435900',
     metadata: {
       description:
-        'HBO host Bill Maher called 16-year-old Covington Catholic High School student Nick Sandmann a &quot;little pr*ck.&quot;',
+        'HBO host Bill Maher called 16-year-old Covington Catholic High School student Nick Sandmann a “little pr*ck.”',
       image:
         'https://cdn01.dailycaller.com/wp-content/uploads/2019/01/Bill-Maher-Nick-Sandmann-screengrabs-e1548520990336.png',
       title:
@@ -2900,7 +2977,8 @@ const tweets = [
         'Cabot Phillips, Media Director of Campus Reform, is here to discuss the rampant reaction, which was both incorrect and misinformed, regarding the Covington School students. The attacks on these minors and their families from adults, whether it’s threatening to punch them in the face like CNN’s Bakar…',
       image: 'https://cdn-profiles.tunein.com/p20631/images/logoq.png',
       title: 'Who Is Apologizing To The Covington Kids?',
-      url: 'http://tun.in/peosP',
+      url:
+        'https://tunein.com/podcasts/Conservative-Talk/The-Sean-Hannity-Show-p20631/',
     },
   },
   {
@@ -2970,7 +3048,7 @@ const tweets = [
     metadata: {
       description: 'What should we make of that Nick Sandmann interview?',
       image:
-        'https://www.washingtonpost.com/resizer/Rai53IN9HT09MzOZFspGZSR0eno=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/6PO45HA6Q4I6TDRBLGQJ74PCUE.jpg',
+        'https://www.washingtonpost.com/resizer/6GrF-jUsmTEAAZzmQ4hy5wLOoO8=/1440x0/smart/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/6PO45HA6Q4I6TDRBLGQJ74PCUE.jpg',
       title:
         'Perspective | The Covington students and the calculated art of making people uncomfortable',
       url:
@@ -2985,11 +3063,11 @@ const tweets = [
       description:
         'Please sign the petition of support for the pro-life boys bullied by the leftist media frenzy.',
       image:
-        'https://www.tfpstudentaction.org/assets/imgs/featured/covington_catholic_high_school.jpg',
+        'https://tfpstudentaction.org/assets/imgs/featured/covington_catholic_high_school.jpg',
       title:
         'Tell the Pro-Life Covington Catholic Boys Bullied by the Media that You Support Them. Sign this Message.',
       url:
-        'https://www.tfpstudentaction.org/petitions/support-covington-catholic-boys',
+        'https://tfpstudentaction.org/petitions/support-covington-catholic-boys',
     },
   },
   {
@@ -3031,7 +3109,8 @@ const tweets = [
     metadata: {
       description:
         'What has happened to the teenage boys and their families is absolutely outrageous!',
-      image: 'http://www.afa.net/media/367563/covington.png',
+      image:
+        'http://www.afa.net/media/367563/covington.png?anchor=center&mode=crop&width=800&height=419&rnd=131928788430000000',
       title: 'Stand with the Covington High School students',
       url:
         'https://www.afa.net/activism/action-alerts/2019/stand-with-the-covington-high-school-students/',
@@ -3047,7 +3126,7 @@ const tweets = [
       image:
         'https://pbs.twimg.com/profile_images/998414118561316864/wT9_5MUw_400x400.jpg',
       title: 'Brandon Straka on Twitter',
-      url: 'https://twitter.com/usminority/status/1090273274934767616',
+      url: 'https://twitter.com/BrandonStraka/status/1090273274934767616',
     },
   },
   {
@@ -3118,7 +3197,7 @@ const tweets = [
       description:
         'Lexington’s Bishop John Stowe said Covington Catholic students can’t be “pro-life” while supporting a president who “denigrates” immigrants and refugees.',
       image:
-        'https://img.huffingtonpost.com/asset/5c4b8a17240000b401486ba6.jpeg?cache=z8cihn9jrc&ops=1910_1000',
+        'https://img.huffingtonpost.com/asset/5c4b8a17240000b401486ba6.jpeg?cache=z8cihn9jrc&ops=1778_1000',
       title: 'Kentucky Catholic Bishop: Trump’s MAGA Hats Are Not ‘Pro-Life’',
       url:
         'https://www.huffpost.com/entry/bishop-john-stowe-covington-kentucky-maga-hats-abortion_n_5c4b5ae7e4b06ba6d3bcbd87',
@@ -3138,16 +3217,6 @@ const tweets = [
     text:
       'truely blessed with the best family around💞 thank you for making my 21st truely unforgettable! @ Covington, Kentucky https://t.co/wdwwJ3CfFn',
     tweet_id: '1090347421845069800',
-    metadata: {
-      description:
-        '196 Likes, 5 Comments - Greta Phillips🌸 (@gretabug24) on Instagram: “truely blessed with the best family around💞 thank you for making my 21st truely unforgettable!”',
-      image:
-        'https://instagram.fnyc1-1.fna.fbcdn.net/vp/fadf44925cd63c68f36aaa164bfc347b/5D6CB4F6/t51.2885-15/e35/49906734_808141942861805_6932608300255736055_n.jpg?_nc_ht=instagram.fnyc1-1.fna.fbcdn.net',
-      title:
-        'Greta Phillips🌸 on Instagram: “truely blessed with the best family around💞 thank you for making my 21st truely unforgettable!”',
-      url:
-        'https://www.instagram.com/p/BtO2QxsFPlJbsIkRTw1Sf-F3jIrl50xkvcGp-Y0/',
-    },
   },
   {
     text:
@@ -3156,8 +3225,9 @@ const tweets = [
     metadata: {
       description: 'Christianity and the advent of the ‘other totalitarianism’',
       image:
-        'https://www.theamericanconservative.com/wp-content/uploads/2019/01/Screen-Shot-2019-01-27-at-1.34.00-PM-435x289.png',
-      title: 'Rene Girard & The Covington Catholic Boys',
+        'https://www.theamericanconservative.com/wp-content/uploads/2019/01/Screen-Shot-2019-01-27-at-1.34.00-PM-e1548617666463.png',
+      title:
+        'Rene Girard & The Covington Catholic Boys | The American Conservative',
       url:
         'https://www.theamericanconservative.com/dreher/rene-girard-covington-catholic-boys/',
     },
