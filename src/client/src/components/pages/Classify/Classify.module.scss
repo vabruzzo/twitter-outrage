@@ -1,0 +1,19 @@
+.section:focus {
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    width: 48%;
+  }
+}
+
+.error {
+  color: red;
+  font-size: 0.875em;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
