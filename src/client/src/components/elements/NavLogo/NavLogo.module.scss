@@ -5,3 +5,13 @@
   margin: 0;
   padding: 12px 0;
 }
+
+.link {
+  color: #f0f0f0;
+
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: none;
+  }
+}

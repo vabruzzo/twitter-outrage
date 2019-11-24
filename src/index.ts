@@ -22,11 +22,11 @@ createConnection()
     });
 
     app.use(bodyParser());
-    app.use(serve(__dirname + '/client/build'));
+    app.use(serve(path.join(__dirname, '/client/build')));
     app.use(router.routes());
     app.use(router.allowedMethods());
 
-    const port = process.env.PORT || 3000;
+    const port = process.env.PORT || 3001;
 
     app.listen(port);
 

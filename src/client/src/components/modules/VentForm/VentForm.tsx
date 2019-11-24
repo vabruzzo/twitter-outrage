@@ -52,7 +52,7 @@ const VentForm: FunctionComponent<IVentFormProps> = ({ setHasSubmitted }) => {
         {hasError && 'Please fill out all fields before submitting.'}
       </p>
       <label htmlFor="ventSubject" className={styles.label}>
-        Subject
+        Subject (a short description of what caused your outrage)
       </label>
       <input
         id="ventSubject"
