@@ -8,7 +8,7 @@
     "@types/koa-router": "^7.0.40",
     "@types/koa-static": "^4.0.1",
     "@types/lodash.samplesize": "^4.2.6",
-    "@types/node": "^12.0.2",
+    "@types/node": "^12.12.12",
     "koa": "^2.7.0",
     "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0",
@@ -23,6 +23,8 @@
   },
   "scripts": {
     "start": "ts-node src/index.ts",
+    "build:client": "npm run build --prefix ./src/client",
+    "build": "npm install --prefix ./src/client && npm run build --prefix ./src/client",
     "typeorm": "ts-node ./node_modules/typeorm/cli.js",
     "migration:create": "ts-node ./node_modules/typeorm/cli.js migration:create -c default -n ",
     "migration:generate": "ts-node ./node_modules/typeorm/cli.js migration:generate -c default -n ",

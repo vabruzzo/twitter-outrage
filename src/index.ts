@@ -1,4 +1,5 @@
 import 'reflect-metadata';
+import * as path from 'path';
 import { createConnection } from 'typeorm';
 import * as Koa from 'koa';
 import * as Router from 'koa-router';
@@ -17,7 +18,7 @@ createConnection()
     });
 
     router.get('/*', async ctx => {
-      await send(ctx, './src/client/build/index.html');
+      await send(ctx, path.join(__dirname, 'src/client/build', 'index.html'));
     });
 
     app.use(bodyParser());
