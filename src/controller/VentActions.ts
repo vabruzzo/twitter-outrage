@@ -1,5 +1,5 @@
 import { Context } from 'koa';
-import { getConnection } from 'typeorm';
+import { getRepository } from './utils';
 import { Vent } from '../entity/Vent';
 
 const createVent = async (ctx: Context) => {
@@ -8,9 +8,8 @@ const createVent = async (ctx: Context) => {
     subjectText,
     subjectId = 'default-subject-id',
   } = ctx.request.body;
-  const repository = await getConnection().getRepository(Vent);
 
-  await repository.query(
+  await getRepository(Vent).query(
     `
       INSERT INTO vent ("text", "subjectText", "subjectId")
         VALUES ($1, $2, $3)

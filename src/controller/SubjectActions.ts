@@ -1,12 +1,11 @@
 import { Context } from 'koa';
-import { getConnection } from 'typeorm';
+import { getRepository } from './utils';
 import { Subject } from '../entity/Subject';
 
 const createSubject = async (ctx: Context) => {
   const { subjectId } = ctx.request.body;
-  const repository = await getConnection().getRepository(Subject);
 
-  await repository.query(
+  await getRepository(Subject).query(
     `
       INSERT INTO subject ("id")
         VALUES ($1)
