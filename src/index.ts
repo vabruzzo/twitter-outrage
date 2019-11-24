@@ -17,7 +17,7 @@ createConnection()
     });
 
     router.get('/*', async ctx => {
-      await send(ctx, '/src/client/build/index.html');
+      await send(ctx, 'src/client/build/index.html');
     });
 
     app.use(bodyParser());
