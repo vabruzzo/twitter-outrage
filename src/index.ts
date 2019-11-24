@@ -17,10 +17,18 @@ createConnection()
       router[route.method](route.path, route.action);
     });
 
-    router.get('/(.*)', async ctx => {
+    router.get('/', async ctx => {
       console.log(
         'path',
         path.join(__dirname, 'src/client/build', 'index.html')
+      );
+      await send(ctx, path.join(__dirname, 'src/client/build', 'index.html'));
+    });
+
+    router.get('/(.*)', async ctx => {
+      console.log(
+        'path no dirname',
+        path.join('src/client/build', 'index.html')
       );
       await send(ctx, path.join(__dirname, 'src/client/build', 'index.html'));
     });
