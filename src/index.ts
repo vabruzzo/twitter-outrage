@@ -17,13 +17,9 @@ createConnection()
       router[route.method](route.path, route.action);
     });
 
-    const pageRoutes = ['/*', '/classify', '/vent', '/about'];
-
-    pageRoutes.forEach(route =>
-      router.get(route, async ctx => {
-        await send(ctx, path.join(__dirname, 'src/client/build', 'index.html'));
-      })
-    );
+    router.get('/(.*)', async ctx => {
+      await send(ctx, path.join(__dirname, 'src/client/build', 'index.html'));
+    });
 
     app.use(bodyParser());
     app.use(serve(path.join(__dirname, '/client/build')));
