@@ -2,7 +2,7 @@ module.exports = [
   {
     name: 'default',
     type: 'postgres',
-    host: 'localhost',
+    host: process.env.DATABASE_URL || 'localhost',
     port: 5432,
     username: process.env.DATABASE_USER || 'test',
     password: process.env.DATABASE_PASSWORD || 'test',
@@ -20,7 +20,7 @@ module.exports = [
   {
     name: 'seed',
     type: 'postgres',
-    host: 'localhost',
+    host: process.env.DATABASE_URL || 'localhost',
     port: 5432,
     username: process.env.DATABASE_USER || 'test',
     password: process.env.DATABASE_PASSWORD || 'test',
