@@ -1,6 +1,6 @@
 import React, { StatelessComponent, Fragment } from 'react';
 import { RouteComponentProps, Link } from '@reach/router';
-import styles from './About.module.scss';
+import styles from './NotFound.module.scss';
 
 interface INotFoundProps extends RouteComponentProps {}
 
