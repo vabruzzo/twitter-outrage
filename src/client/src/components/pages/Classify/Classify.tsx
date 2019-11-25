@@ -71,11 +71,7 @@ const Classify: FunctionComponent<IClassifyProps> = ({
             />
           </div>
         </>
-      ) : (
-        <p className={styles.error}>
-          Oops, something went wrong. Please try again.
-        </p>
-      )}
+      ) : null}
     </section>
   );
 };
