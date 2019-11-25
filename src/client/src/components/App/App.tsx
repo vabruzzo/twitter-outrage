@@ -6,6 +6,7 @@ import Home from '../pages/Home/Home';
 import Classify from '../pages/Classify/Classify';
 import Vent from '../pages/Vent/Vent';
 import About from '../pages/About/About';
+import NotFound from '../pages/NotFound/NotFound';
 import Header from '../modules/Header/Header';
 import Footer from '../modules/Footer/Footer';
 import styles from './App.module.scss';
@@ -75,6 +76,7 @@ class App extends Component<IAppProps, IAppState> {
               />
               <Vent path="/vent" />
               <About path="/about" />
+              <NotFound path="/*" />
             </Router>
           </Subject>
         </main>
