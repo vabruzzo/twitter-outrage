@@ -26,11 +26,8 @@ createConnection()
     });
 
     router.get('/(.*)', async ctx => {
-      console.log(
-        'path no dirname',
-        path.join('src/client/build', 'index.html')
-      );
-      await send(ctx, '/app/src/client/build/index.html');
+      console.log('path no dirname', 'app/src/client/build/index.html');
+      await send(ctx, 'app/src/client/build/index.html');
     });
 
     app.use(bodyParser());
