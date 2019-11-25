@@ -30,7 +30,7 @@ createConnection()
         'path no dirname',
         path.join('src/client/build', 'index.html')
       );
-      await send(ctx, path.join('/app/src/client/build', 'index.html'));
+      await send(ctx, '/app/src/client/build/index.html');
     });
 
     app.use(bodyParser());
