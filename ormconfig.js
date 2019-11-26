@@ -2,10 +2,8 @@ module.exports = [
   {
     name: 'default',
     type: 'postgres',
-    url: process.env.DATABASE_URL || 'postgresql://test@localhost:5432/test',
-    username: process.env.DATABASE_USER || 'test',
-    password: process.env.DATABASE_PASSWORD || 'test',
-    database: process.env.DATABASE || 'test',
+    url:
+      process.env.DATABASE_URL || 'postgresql://test:test@localhost:5432/test',
     synchronize: false,
     logging: false,
     cache: true,

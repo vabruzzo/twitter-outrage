@@ -16,6 +16,8 @@ export class Init1559013086896 implements MigrationInterface {
         `
           INSERT INTO "tweet" ("id", "text", "active", "metadata")
             VALUES ($1, $2, $3, $4)
+            ON CONFLICT ("id")
+            DO NOTHING
         `,
         [tweet_id, text, true, {}]
       );
