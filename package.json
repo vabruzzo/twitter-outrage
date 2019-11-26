@@ -26,7 +26,7 @@
     "start": "ts-node src/index.ts",
     "dev": "ts-node-dev src/index.ts",
     "build:client": "npm run build --prefix ./src/client",
-    "build": "npm install --prefix ./src/client && npm run build --prefix ./src/client",
+    "build": "npm install --prefix ./src/client && npm run build --prefix ./src/client && npm run migration:run && npm run seed:run",
     "typeorm": "ts-node ./node_modules/typeorm/cli.js",
     "migration:create": "ts-node ./node_modules/typeorm/cli.js migration:create -c default -n ",
     "migration:generate": "ts-node ./node_modules/typeorm/cli.js migration:generate -c default -n ",

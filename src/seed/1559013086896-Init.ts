@@ -1,6 +1,9 @@
 import { MigrationInterface, getConnection, createConnection } from 'typeorm';
-import tweets from '../data/tweets';
+import nz from '../data/nz_shooting_clean';
+import admissions from '../data/nz_shooting_clean';
 import { Tweet } from '../entity/Tweet';
+
+const tweets = nz.concat(admissions);
 
 export class Init1559013086896 implements MigrationInterface {
   public async up(): Promise<any> {
@@ -14,7 +17,8 @@ export class Init1559013086896 implements MigrationInterface {
           id: tweet.tweet_id,
           text: tweet.text,
           active: true,
-          metadata: JSON.stringify(tweet.metadata),
+          //@ts-ignore
+          metadata: JSON.stringify(tweet.metadata || {}),
         }))
       )
       .execute();
