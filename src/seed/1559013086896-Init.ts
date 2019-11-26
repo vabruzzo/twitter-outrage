@@ -8,20 +8,19 @@ const tweets = nz.concat(admissions);
 export class Init1559013086896 implements MigrationInterface {
   public async up(): Promise<any> {
     await createConnection();
-    await getConnection()
-      .createQueryBuilder()
-      .insert()
-      .into(Tweet)
-      .values(
-        tweets.map(tweet => ({
-          id: tweet.tweet_id,
-          text: tweet.text,
-          active: true,
-          //@ts-ignore
-          metadata: JSON.stringify(tweet.metadata || {}),
-        }))
-      )
-      .execute();
+    const connection = await getConnection();
+
+    tweets.forEach(tweet => {
+      const { tweet_id, text } = tweet;
+
+      connection.query(
+        `
+          INSERT INTO "tweet" ("id", "text", "active", "metadata")
+            VALUES ($1, $2, $3, $4)
+        `,
+        [tweet_id, text, true, {}]
+      );
+    });
   }
 
   public async down(): Promise<any> {}
