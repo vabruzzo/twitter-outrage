@@ -22,6 +22,14 @@ export class Init1559013086896 implements MigrationInterface {
         [tweet_id, text, true, {}]
       );
     }
+
+    await connection.query(
+      `
+        INSERT INTO "subject" ("id")
+          VALUES ($1)
+      `,
+      ['default-subject-id']
+    );
   }
 
   public async down(): Promise<any> {}
