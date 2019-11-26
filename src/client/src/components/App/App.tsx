@@ -37,7 +37,7 @@ class App extends Component<IAppProps, IAppState> {
 
     return tweetsRaw.map(tweet => ({
       ...tweet,
-      metadata: tweet.metadata && JSON.parse(tweet.metadata as string),
+      metadata: tweet.metadata,
     }));
   };
 
