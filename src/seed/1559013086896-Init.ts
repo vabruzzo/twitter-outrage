@@ -12,7 +12,7 @@ export class Init1559013086896 implements MigrationInterface {
     for (const tweet of tweets) {
       const { tweet_id, text } = tweet;
 
-      connection.query(
+      await connection.query(
         `
           INSERT INTO "tweet" ("id", "text", "active", "metadata")
             VALUES ($1, $2, $3, $4)
