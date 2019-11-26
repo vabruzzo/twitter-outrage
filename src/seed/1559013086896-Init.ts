@@ -1,7 +1,6 @@
 import { MigrationInterface, getConnection, createConnection } from 'typeorm';
 import nz from '../data/nz_shooting_clean';
 import admissions from '../data/nz_shooting_clean';
-import { Tweet } from '../entity/Tweet';
 
 const tweets = nz.concat(admissions);
 
@@ -10,7 +9,7 @@ export class Init1559013086896 implements MigrationInterface {
     await createConnection();
     const connection = await getConnection();
 
-    tweets.forEach(tweet => {
+    for (const tweet of tweets) {
       const { tweet_id, text } = tweet;
 
       connection.query(
@@ -20,7 +19,7 @@ export class Init1559013086896 implements MigrationInterface {
         `,
         [tweet_id, text, true, {}]
       );
-    });
+    }
   }
 
   public async down(): Promise<any> {}
