@@ -24,6 +24,7 @@ const Tweet: StatelessComponent<ITweetProps> = ({ tweet, date }) => (
           __html: tweet.text,
         }}
       />
+      {/* if we ever want to display metadata, this will do the trick
       {tweet.metadata && (
         <>
           <div className={styles.imageContainer}>
@@ -40,7 +41,7 @@ const Tweet: StatelessComponent<ITweetProps> = ({ tweet, date }) => (
             <p className={styles.description}>{tweet.metadata.description}</p>
           </div>
         </>
-      )}
+      )} */}
     </div>
   </div>
 );
